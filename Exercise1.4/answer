@@ -1,0 +1,4 @@
+docker run -d --rm -it --name e4 ubuntu
+docker exec e4 apt update
+docker exec e4 apt install curl -y
+docker exec -it e4 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
