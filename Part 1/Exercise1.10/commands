@@ -1,0 +1,4 @@
+docker run -p 8080:8080 web-server
+
+Then I went to http://localhost:8080/ on my browser and got
+"{"message":"You connected to the following path: /","path":"/"}"

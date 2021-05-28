@@ -1,0 +1,4 @@
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   2 months ago    83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 months ago    15.7MB
+
+The image sizes are 83 MB and 15.7 MB. The secret message is the same in both. 
