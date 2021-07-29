@@ -1,0 +1,9 @@
+The docker files are inside their own frontend/backend directories.
+
+Used commands:
+
+cd backend
+docker build . -t backend-project && docker run -d -p 8080:8080 backend-project
+
+cd ../frontend
+docker build . -t frontend-project && docker run -d -p 5000:5000 frontend-project
