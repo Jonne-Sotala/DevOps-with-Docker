@@ -1,0 +1,1 @@
+The only change I made was changing the environmental variable 'REQUEST_ORIGIN' to http://localhost
