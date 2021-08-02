@@ -1,0 +1,5 @@
+REPOSITORY                                   TAG             IMAGE ID       CREATED              SIZE
+spring-project                               latest          881d7cdab793   About a minute ago   599MB
+
+
+# THIS WAS CREATED WITH THE DOCKERFILE FROM EXERCISE 1.11
