@@ -1,0 +1,16 @@
+FROM golang:1.16
+
+EXPOSE 8080
+WORKDIR /go/src/app
+COPY . .
+
+ENV PORT=8080
+ENV REQUEST_ORIGIN=http://localhost
+
+RUN go build
+RUN go test ./...
+
+RUN useradd -m user
+USER user
+
+CMD ["./server"]
